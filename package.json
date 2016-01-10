@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "birdway-atom:toggle"
+    "atom-workspace": ["birdway-atom:toggle", "birdway-atom:startServer", "birdway-atom:login"]
   },
   "repository": "https://github.com/atom/birdway-atom",
   "license": "MIT",
@@ -16,6 +16,7 @@
   "dependencies": {
       "carrier": "*",
       "grim": "*",
-      "range": "*"
+      "range": "*",
+      "atom-space-pen-views": "^2.0.3"
   }
 }

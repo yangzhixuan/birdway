@@ -4,6 +4,14 @@
     {
       'label': 'Toggle birdway-atom'
       'command': 'birdway-atom:toggle'
+    },
+    {
+      'label': 'StartServer'
+      'command': 'birdway-atom:startServer'
+    },
+    {
+      'label': 'login'
+      'command': 'birdway-atom:login'
     }
   ]
 'menu': [
@@ -15,6 +23,14 @@
         {
           'label': 'Toggle'
           'command': 'birdway-atom:toggle'
+        },
+        {
+          'label': 'StartServer'
+          'command': 'birdway-atom:startServer'
+        },
+        {
+          'label': 'login'
+          'command': 'birdway-atom:login'
         }
       ]
     ]

@@ -4,5 +4,45 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.birdway-atom {
+@cursorWidth: 1px;
+@cursorType: solid;
+
+atom-text-editor::shadow .redCursorSimulator .region {
+  //background-color: @background-color-error;
+  border-left : @cursorWidth @cursorType red;
+}
+
+atom-text-editor::shadow .redCursorSimulatorAtRight .region {
+  //background-color: @background-color-error;
+  border-right : @cursorWidth @cursorType red;
+}
+
+atom-text-editor::shadow .blueCursorSimulator .region {
+  //background-color: @background-color-error;
+  border-left : @cursorWidth @cursorType blue;
+}
+
+atom-text-editor::shadow .blueCursorSimulatorAtRight .region {
+  //background-color: @background-color-error;
+  border-right : @cursorWidth @cursorType blue;
+}
+
+atom-text-editor::shadow .greenCursorSimulator .region {
+  //background-color: @background-color-error;
+  border-left : @cursorWidth @cursorType green;
+}
+
+atom-text-editor::shadow .greenCursorSimulatorAtRight .region {
+  //background-color: @background-color-error;
+  border-right : @cursorWidth @cursorType green;
+}
+
+atom-text-editor::shadow .yellowCursorSimulator .region {
+  //background-color: @background-color-error;
+  border-left : @cursorWidth @cursorType yellow;
+}
+
+atom-text-editor::shadow .yellowCursorSimulatorAtRight .region {
+  //background-color: @background-color-error;
+  border-right : @cursorWidth @cursorType yellow;
 }
